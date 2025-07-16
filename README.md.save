@@ -1,4 +1,9 @@
 # Generative AI Project
+Here is the exact extracted text from the images you provided:
+
+
+---
+
 Gen AI Curriculum
 10 modules
 
@@ -28,7 +33,7 @@ Module 10
 
 Module 01
 
-# Introduction to Gen AI (Theory)
+Introduction to Gen AI (Theory)
 
 Overview of Artificial Intelligence
 
@@ -38,9 +43,13 @@ Evaluation of AI model (Rule Based → ML → DL → Gen AI)
 
 Industry use cases
 
+
+
+---
+
 Module 02
 
-# Data Analytics with Python
+Data Analytics with Python
 
 I. Python Basics (9 hours)
 → Variables
@@ -55,26 +64,26 @@ II. Python Numpy, Pandas
 
 III. EDA
 → Basics of Queries, Descriptive Statistics, missing values, outlier detection
-. Data Visualization for EDA
 
-IV. SQL for Data Analytics
+IV. Data Visualization for EDA
+
+V. SQL for Data Analytics
 → Basic Queries (Select, where, groupby, having, joins)
 → Window functions & Analytical Queries
 
-V. Data Visualization with Python
+VI. Data Visualization with Python
 → matplotlib, seaborn, plotly
 
-VI. Visual story telling by using Power BI
+VII. Visual story telling by using Power BI
 → Creating dashboard, filtering & Interaction
 
+
+---
 
 Module 03
 
 Mathematics & Statistics
-<<<<<<< HEAD
-=======
 
->>>>>>> 3146087... chnages font size
 I. Fundamentals of Linear Algebra
 → Vectors, Matrices, eigen values & eigen vectors
 → Dot product, matrix operations
@@ -85,15 +94,21 @@ II. Probability & Statistics
 → Probability & distributions (normal, bernoulli, binomial)
 → Central Limit Theorem
 
+
+---
+
 Module 04
 
-# ML Fundamentals
+ML Fundamentals
 
 Supervised Learning
 
 → Regression – Linear, lasso, Ridge, polynomial
 → Classification – logistic Regression, Decision Tree, Random forest, SVM, KNN
 → Model Evaluation – Accuracy, precision, Recall, f1score, ROC – AUC
+
+
+---
 
 Unsupervised Learning
 
@@ -105,9 +120,12 @@ Reinforcement Learning
 → Train Agents using policy & value based method
 → to understand value, environmental interaction
 
+
+---
+
 Module 05
 
-# Deep Learning
+Deep Learning
 
 I. Neural Networks
 → Perceptron, Activation functions, forward & backward propagation
@@ -126,5 +144,4 @@ IV. Natural learning process for Gen AI
 → Introduction to NLP, library, tools for NLP
 → Text cleaning in Sequential data
 → Text processing methods → (BOW, TF → IDF, N → Grams)
-→ Word Embedding → word2vec
-
+→ Word Embedding → 
