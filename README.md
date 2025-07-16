@@ -69,7 +69,10 @@ VI. Visual story telling by using Power BI
 
 
 Module 03
-#Mathematics and Probability
+
+# **Mathematics and Probability**
+
+
 I. Fundamentals of Linear Algebra
 → Vectors, Matrices, eigen values & eigen vectors
 → Dot product, matrix operations
