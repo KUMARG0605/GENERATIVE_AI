@@ -70,7 +70,7 @@ VI. Visual story telling by using Power BI
 
 Module 03
 
-#Mathematics & Statistics
+Mathematics & Statistics
 
 I. Fundamentals of Linear Algebra
 → Vectors, Matrices, eigen values & eigen vectors
