@@ -28,7 +28,7 @@ Module 10
 
 Module 01
 
-Introduction to Gen AI (Theory)
+# Introduction to Gen AI (Theory)
 
 Overview of Artificial Intelligence
 
@@ -40,7 +40,7 @@ Industry use cases
 
 Module 02
 
-Data Analytics with Python
+# Data Analytics with Python
 
 I. Python Basics (9 hours)
 → Variables
@@ -70,7 +70,7 @@ VI. Visual story telling by using Power BI
 
 Module 03
 
-Mathematics & Statistics
+#Mathematics & Statistics
 
 I. Fundamentals of Linear Algebra
 → Vectors, Matrices, eigen values & eigen vectors
@@ -84,7 +84,7 @@ II. Probability & Statistics
 
 Module 04
 
-ML Fundamentals
+# ML Fundamentals
 
 Supervised Learning
 
@@ -104,7 +104,7 @@ Reinforcement Learning
 
 Module 05
 
-Deep Learning
+# Deep Learning
 
 I. Neural Networks
 → Perceptron, Activation functions, forward & backward propagation
