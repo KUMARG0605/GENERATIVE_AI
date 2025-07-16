@@ -69,12 +69,7 @@ VI. Visual story telling by using Power BI
 
 
 Module 03
-
-Mathematics & Statistics
-<<<<<<< HEAD
-=======
-
->>>>>>> 3146087... chnages font size
+#Mathematics and Probability
 I. Fundamentals of Linear Algebra
 → Vectors, Matrices, eigen values & eigen vectors
 → Dot product, matrix operations
