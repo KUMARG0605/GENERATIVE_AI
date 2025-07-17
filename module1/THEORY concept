@@ -1,4 +1,4 @@
-Overview of Artificial Intelligence
+#Overview of Artificial Intelligence
 
 AI – Branch of computer science that focuses on creating systems/machines that simulate human intelligence and perform tasks.
 – Simulation of human intelligence in machines that are programmed to think, learn and make decisions.
@@ -7,11 +7,11 @@ AI – Branch of computer science that focuses on creating systems/machines that
 
 ---
 
-Types of AI: Based on Capability and Functionality
+#Types of AI: Based on Capability and Functionality
 
 1) Capability:
 
-Narrow AI (Weak AI)
+#Narrow AI (Weak AI)
 
 Designed for specific task.
 
@@ -20,7 +20,7 @@ Most current AI systems fall into this category.
 Example: Voice Assistant (Siri, Alexa), Recommender systems
 
 
-General AI (Strong AI)
+#General AI (Strong AI)
 
 Aims to perform any intellectual task that a human can do.
 
@@ -29,7 +29,7 @@ Can generalize the learning from one domain to another.
 Still theoretical, no real-world system achieved yet.
 
 
-Super AI
+#Super AI
 
 Hypothetical future AI that surpasses human intelligence in all aspects.
 
@@ -46,7 +46,7 @@ ASI
 
 ---
 
-Based on Functionality:
+#Based on Functionality:
 
 1. Reactive Machines
 
@@ -82,7 +82,7 @@ Has own consciousness and self-awareness
 
 ---
 
-Applications of AI:
+#Applications of AI:
 
 Healthcare
 
@@ -103,7 +103,7 @@ ML | DL | NLP | CV | Robotics
 
 ---
 
-How AI Works?
+#How AI Works?
 
 Data collection
 
@@ -121,11 +121,11 @@ Deployment
 
 ---
 
-Traditional AI vs Gen AI
+#Traditional AI vs Gen AI
 
 Feature	Traditional AI	Gen AI
 
-Definition	Focus on learning patterns from data to make predictions or classifications	Focus on learning patterns to generate new data (text, image)
+Definition	Focus on learning patterns from data to make predictions or classifications		Focus on learning patterns to generate new data (text, image)
 Purpose	To automate problem solving and decision making	To create new content similar to human-generated content
 Function	Discriminative	Generative
 Examples	Spam detection, fraud detection, recommender system	Text generation, image generation, code generation
@@ -141,7 +141,7 @@ Model Examples	Decision Tree, SVM, Random Forest, Logistic Regression	GPT, BERT,
 
 ---
 
-Evaluation (RB → ML → DL → Gen AI)
+#Evaluation (RB → ML → DL → Gen AI)
 
 1) Rule Based System:
 
@@ -302,7 +302,7 @@ Dunn Index
 
 ---
 
-Use Cases of Gen AI
+#Use Cases of Gen AI
 
 Text Generation
 
