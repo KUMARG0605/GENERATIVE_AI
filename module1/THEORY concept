@@ -1,0 +1,322 @@
+Overview of Artificial Intelligence
+
+AI – Branch of computer science that focuses on creating systems/machines that simulate human intelligence and perform tasks.
+– Simulation of human intelligence in machines that are programmed to think, learn and make decisions.
+– Tasks – Thinking, learning, problem solving, perception, language understanding.
+
+
+---
+
+Types of AI: Based on Capability and Functionality
+
+1) Capability:
+
+Narrow AI (Weak AI)
+
+Designed for specific task.
+
+Most current AI systems fall into this category.
+
+Example: Voice Assistant (Siri, Alexa), Recommender systems
+
+
+General AI (Strong AI)
+
+Aims to perform any intellectual task that a human can do.
+
+Can generalize the learning from one domain to another.
+
+Still theoretical, no real-world system achieved yet.
+
+
+Super AI
+
+Hypothetical future AI that surpasses human intelligence in all aspects.
+
+Performs tasks better than humans.
+
+Raises concerns about ethics, safety, and control.
+
+
+AGI
+
+ASI
+
+
+
+---
+
+Based on Functionality:
+
+1. Reactive Machines
+
+No memory, purely reactive to immediate situations
+
+Ex: IBM's Deep Blue (chess-playing machine)
+
+
+
+2. Limited Memory
+
+Can learn from historic data and make decisions
+
+Most modern AI systems fall under this
+
+Example: Self-driving cars
+
+
+
+3. Theory of Mind (Research stage)
+
+Understand emotions, beliefs, and thoughts of other beings (hypothetical AI)
+
+
+
+4. Self Aware AI (Still theory)
+
+Has own consciousness and self-awareness
+
+
+
+
+
+---
+
+Applications of AI:
+
+Healthcare
+
+Finance
+
+Retail
+
+Education
+
+Transport
+
+Entertainment
+
+
+Fields:
+ML | DL | NLP | CV | Robotics
+
+
+---
+
+How AI Works?
+
+Data collection
+
+Data preprocessing
+
+Model selection
+
+Training
+
+Evaluation
+
+Deployment
+
+
+
+---
+
+Traditional AI vs Gen AI
+
+Feature	Traditional AI	Gen AI
+
+Definition	Focus on learning patterns from data to make predictions or classifications	Focus on learning patterns to generate new data (text, image)
+Purpose	To automate problem solving and decision making	To create new content similar to human-generated content
+Function	Discriminative	Generative
+Examples	Spam detection, fraud detection, recommender system	Text generation, image generation, code generation
+Techniques	Rule-based logic, Decision Trees, SVM, Regression	LLMs, GANs, VAEs
+Output	Labels, predictions	Text, video, audio, etc.
+Data dependency	Structured data, tabular data	Unstructured, massive data
+Learning Approach	Supervised, Reinforcement, Unsupervised	Pre-trained (big data), Unsupervised
+Use Cases	Email filtering, credit risk scoring, medical diagnosis	Chatbots, content writing, art/design
+Creativity	Low	High
+Model Examples	Decision Tree, SVM, Random Forest, Logistic Regression	GPT, BERT, ChatGPT
+
+
+
+---
+
+Evaluation (RB → ML → DL → Gen AI)
+
+1) Rule Based System:
+
+Based on predefined logic and ‘if-then’ rules written by humans.
+
+No learning from data.
+
+
+Evaluation:
+
+Correctness: Does system behave as expected
+
+Coverage: Can it handle all scenarios
+
+Maintainability: Is it easy to update
+
+
+
+---
+
+2) Machine Learning:
+
+Learn from data (patterns)
+
+Algorithms include: Classifiers, SVM, Linear Regression, Decision Trees
+
+
+Evaluation:
+
+Regression: MAE, R², MSE
+
+Classification: Recall, Precision, Accuracy, Confusion Matrix, F1 Score, ROC-AUC Curve
+
+
+
+---
+
+3) Deep Learning:
+
+Subset of ML using multi-layer neural networks
+
+Handle large, unstructured data
+
+
+Evaluation: Same as ML with added metrics for specific tasks
+
+For image tasks:
+
+Top-k accuracy
+
+IoU (for object detection)
+
+
+For sequence models:
+
+BLEU Score (in NLP)
+
+Perplexity
+
+
+
+Examples: Face recognition, voice assistants, autonomous vehicles
+
+
+---
+
+4) Generative AI (Gen AI)
+
+Uses deep learning to generate new content (text, video, image)
+
+Based on LLMs (like GPT), VAEs
+
+
+Evaluation Metrics:
+
+For Text Generation:
+
+BLEU, ROUGE (text similarity under truth)
+
+Perplexity
+
+Human evaluation
+
+
+For Image Generation:
+
+Inspection Score
+
+Frechet Inception Distance
+
+
+For Code Generation:
+
+Pass ratio (test cases)
+
+Exact match with expected output
+
+
+
+Examples: ChatGPT, GANs
+
+
+---
+
+Stages Comparison Table:
+
+Stage	Logic Source	Data Dependency	Human Effort	Evaluation Type
+
+RB	Rule-based	Handcoded rules	High	Manual testing
+ML	Data patterns	Labeled data	Medium	Accuracy, Precision, F1, ROC-AUC
+DL	Neural networks	Large data + GPU	Low	Complex metrics (IoU, BLEU, etc.)
+Gen AI	LLMs	Massive unstructured data	Minimal	Quality + Creativity
+
+
+
+---
+
+For Classification Tasks
+
+Accuracy: Ratio of correct predictions to total predictions (Best when classes are balanced)
+
+Precision: TP / (TP + FP) → How many predicted positives were correct
+
+Recall: TP / (TP + FN) → How many actual positives detected
+
+F1 Score: Harmonic mean of precision and recall
+
+ROC-AUC: Area under ROC curve (TPR vs FPR)
+
+Confusion Matrix: Table showing TP, FP, FN, TN
+
+
+
+---
+
+For Regression Tasks
+
+MAE, MSE, R² Score, RMSE
+
+
+
+---
+
+Unsupervised Models
+
+Used when there are no labels and we want to group similar data points
+Metrics:
+
+Silhouette Score
+
+Davies-Bouldin Index
+
+Inertia
+
+Dunn Index
+
+
+
+---
+
+Use Cases of Gen AI
+
+Text Generation
+
+Chatbot & Virtual Assistants
+
+Content writing
+
+Email drafting & Translation
+
+Auto-correction
+
+
+Image Generation
+
+Code Generation
+
+Video, Audio, Healthcare, Education, etc.
