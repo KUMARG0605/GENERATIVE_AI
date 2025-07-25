@@ -15,3 +15,121 @@ elif(x<0):
 else:
   print("zero")
 
+
+
+#➤ Prime Number Checker
+    
+    if(n<1):
+        print("False")
+    for i in range(2,int(n**0.5)+1):
+        if(n%i!=0):
+            print("prime")
+        else:
+            print("not prime")
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Example usage:
+num = int(input("Enter a number: "))
+if is_prime(num):
+    print("Prime")
+else:
+    print("Not Prime")
+
+#CLASS CREATION AND USAGE
+
+class Car:
+    def __init__(self, brand):
+        self.brand = brand
+
+    def show(self):
+        print("Brand:", self.brand)
+
+c = Car("Toyota")
+c.show()  # Brand: Toyota
+
+#creating multiple objects from one class
+
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+dog1 = Dog("Bruno")
+dog2 = Dog("Tommy")
+
+print(dog1.name)  # Bruno
+print(dog2.name)  # Tommy
+
+#DEFINING A METHOD INSIDE THE CLASS
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+calc = Calculator()
+print(calc.add(10, 5))  # 15
+
+
+#usage of __init__
+
+class Person:
+    def __init__(self):
+        print("Constructor called")
+
+p = Person()
+
+#difference between instance and class variables
+
+class Sample:
+    class_var = "I am a class variable"  # shared by all objects
+
+    def __init__(self, value):
+        self.instance_var = value  # unique to each object
+
+s1 = Sample("Object1")
+s2 = Sample("Object2")
+
+print(s1.class_var)       # I am a class variable
+print(s1.instance_var)    # Object1
+print(s2.instance_var)    # Object2
+
+
+# Can you call a method inside another method in the same class?
+
+
+class Demo:
+    def greet(self):
+        return "Hello!"
+
+    def welcome(self):
+        print(self.greet(), "Welcome to Python.")
+
+d = Demo()
+d.welcome()  # Hello! Welcome to Python.
+
+
+#how to know if it belogs to that class or not
+class A:
+    pass
+
+obj = A()
+print(isinstance(obj, A))  # True
+
+#INHERITENCE CONCEPT 
+class Animal:
+    def sound(self):
+        print("Makes a sound")
+
+class Dog(Animal):
+    def bark(self):
+        print("Barks")
+
+d = Dog()
+d.sound()  # Inherited method
+d.bark()
