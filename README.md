@@ -1,5 +1,6 @@
 # Generative AI Project
 Gen AI Curriculum
+
 10 modules
 
 Module 01
