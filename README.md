@@ -128,3 +128,114 @@ IV. Natural learning process for Gen AI
 → Text processing methods → (BOW, TF → IDF, N → Grams)
 → Word Embedding → word2vec
 
+Module 06
+### Foundations of generative ai and prompt engineering
+
+### Introduction to Generative AI
+• What is Generative AI? Evolution from Rule-Based AI to GenAI
+• Differences: Generative AI vs. Traditional AI
+### Indust•y Applications:
+1. Content Creation (Chatbots, Sto•y W•iting, Blogging)
+2. Code Generation (AI-Assisted Programming)
+3. Image & Video Synthesis (DALL·E, MidJou•ney, DeepSeek Vision)
+
+### Prompt Engineering & Optimization
+### Fundamentals of Prompt Enginee•ing
+1. Zero-shot, Few-shot, Chain-of-Thought (CoT) Prompting
+2. Role-based Prompts, Multi-tu•n Conversations
+### Advanced Prompting Techniques
+1. System vs. User Prompts, Style Transfer, Iterative Prompting
+
+
+MODULE 07
+### Generative AI Architectures & Large Language Models (LLMs) –  (16 hours)
+
+Encoder-Decoder Architectures & Attention Mechanism
+• Understanding Sequence-to-Sequence (Seq2Seq) Models
+ ### • Introduction to Attention Mechanisms
+1. Self-Attention & Cross-Attention
+2. Scaled Dot-Product Attention & Multi-Head Attention
+### • Transfo•mers & Evolution
+1. Introduction to Transfo•mers (Vaswani et al., 2017)
+2. Positional Encoding & Feed-Fo•ward Networks
+
+### Foundation of Generative Models
+
+ ### Types of Generative Models
+1. Va•iational Autoencoders (VAEs)
+2. Generative Adversa•ial Networks (GANs) – StyleGAN, CycleGAN
+3. Transfo•mer-Based Models (GPT, BERT, T5)
+### Understanding AI Hallucinations, Bias, and Model Safety
+1. Va•iational Autoencoders (VAEs)
+2. Generative Adversa•ial Networks (GANs) – StyleGAN, CycleGAN
+3. Transfo•mer-Based Models (GPT, BERT, T5)
+
+### Large Language Models (LLMs) & Fine-Tuning
+
+• Popular LLMs: GPT-4, DeepSeek, LLaMA, Mistral, Claude, Falcon
+• Fine-Tuning vs. Pre-training of LLMs
+1. Transfer Lea•ning for LLMs
+2. Customizing LLMs for Domain-Specific Use Case
+
+
+MODULE 08
+### Retrieval-Augmented Generation (RAG) & Multimodal AI 
+Retrieval-Augmented Generation (RAG)
+• Why RAG? Understanding LLM Limitations
+• RAG Pipeline Components:
+1. Document Embeddings & Vector Databases (Pinecone, ChromaDB)
+2. Que•y Processing & Context Ret•ieval
+
+
+### Foundation of Generative Models
+• Implementing RAG with Hugging Face & LangChain
+• What is LlamaIndex?
+• Using LlamaIndex for Efficient Document Retrieval
+
+#### Multimodal AI – Text, Image, Video & Speech Processing
+• Text-to-Image & Image-to-Image Generation
+1. How DALL·E, MidJou•ney, and Stable Diffusion Work
+2. Latent Diffusion Models (LDMs) & Hugging Face Implementations
+• Speech-to-Text & AI Voice Processing
+1. Whisper, Wav2Vec, DeepSeek-STT, Real-Time Speech Transc•iption
+• Advanced Multimodal Models
+1. OpenAI GPT-4V, Gemini
+2. Text-to-Image, Image Captioning
+
+MODULE 09
+
+### Agentic AI & Hugging Face ecosystem 
+
+Agentic AI & Autonomous AI Agents
+• What is Agentic AI?
+1. Understanding Autonomous AI Systems
+• AI Agent Frameworks:
+1. LangChain, AutoGPT, Hugging Face Agents
+2. Building AI Agents for Research, Trading, and Business Automation
+
+### Hugging Face Ecosystem
+
+• Hugging Face Models, Spaces, and TransfoŠmers
+• Fine-Tuning LLMs & Custom AI Deployments
+• EnterpŠise Use Cases
+### Hugging Face Ecosystem
+1. AI Chatbots, Code Generation, AI for Research
+
+### Real-Time Generative AI in Business Applications
+
+## Generative AI in Healthcare
+1. AI-Powered D•ug Discove•y, Medical Imaging
+• AI in Finance
+1. Synthetic Data for Risk Modeling & Fraud Detection
+• Automating Business Processes with AI
+
+MODULE 10
+
+### Future of AI & Capstone Project
+
+### Ethics, AI Governance & Future Trends
+• Responsible AI & AI GoveŠnance
+1. EU AI Act, OpenAI’s AI Policy
+• The Future of Generative AI
+1. AI-Powered Autonomous Systems
+2. Trends in AGI (A•tificial General Intelligence)
