@@ -2,7 +2,6 @@
 Gen AI Curriculum
 
 10 modules
-
 Module 01
 
 Module 02
